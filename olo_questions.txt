@@ -1,0 +1,9 @@
+Olo test app
+
+- What are the requirements for a PUT/POST?
+-- Can create a post with an non-numeric userId
+-- Can create or update posts that do not contain all attributes
+
+- PUT return code is 200, it should be 201 if a new resource is created
+
+- PATCH, DELETE always returns 200, even for resources which do not exist
